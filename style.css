@@ -2,10 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/*Welcome & Hire Me Section*/
+section{
+    margin-bottom: 150px;
+}
 h1{
     font-size: 50px;
 }
+/*Welcome & Hire Me Section*/
 .n-orange{
     color: orange;
 }
@@ -37,12 +40,13 @@ h1{
 
 /*Dream Big & Download Resume Section*/
 
-h1{
-    font-size: 50px;
-}
+
 
 .second-portion{
     display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width-2nd{
     width: 50%;
@@ -52,7 +56,7 @@ h1{
     width: 80%;
 
 }
-.half-width p{
+.half-width-2nd p{
     text-align: justify;
 
 }
@@ -63,4 +67,34 @@ h1{
     padding: 10px 40px;
     font-weight: 700;
     color: black;
+}
+
+/*Experiences Section*/
+.third-portion-header{
+    text-align: center;
+}
+
+.third-portion-2d-header{
+    font-size: 40px;
+}
+
+.third-portion{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.half-width-3rd{
+    width: 40%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 60px gray;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-right: 3%;
+    padding-bottom: 100px;
+}
+
+.half-width-3rd p{
+    text-align: justify;
+
 }
