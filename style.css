@@ -98,3 +98,19 @@ h1{
     text-align: justify;
 
 }
+
+#box-radiant-1{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, rgb(211, 90, 53));
+    border-image-slice: 1;
+}
+
+#box-radiant-2{
+    border-left: 10px solid;
+    border-image: linear-gradient(cyan, navy);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
